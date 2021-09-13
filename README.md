@@ -37,7 +37,6 @@ Go to your terminal and type:
 ```sh
 node index.js
 ```
-
 ## Run tests
 
 ```sh
