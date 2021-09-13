@@ -2,6 +2,8 @@
 module.exports.run = async (bot, message, args) => {
     // Where we send a message where the command is request
     message.channel.send("Test command !");
+    // You can send with the function bot.erreur also !
+    bot.erreur("Test command with function erreur", message.channel.id)
 };
 
 // That's essential for the command help
