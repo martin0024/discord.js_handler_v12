@@ -15,6 +15,11 @@
 - node >=9.3.0
 
 ## Install
+First you need a token bot : https://discordjs.guide/preparations/setting-up-a-bot-application.html#token-leak-scenario
+You need to add the bot : https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links
+
+> Go into json/config.json and put your token like this:
+"token": "YOUR TOKEN"
 
 Go to your terminal and type:
 ```sh
